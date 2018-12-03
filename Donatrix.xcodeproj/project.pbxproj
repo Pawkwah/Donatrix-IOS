@@ -13,6 +13,9 @@
 		F7E5F15921B48DDB00E50BCF /* Donatrix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7E5F15721B48DDB00E50BCF /* Donatrix.xcdatamodeld */; };
 		F7E5F15B21B48DDD00E50BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E5F15A21B48DDD00E50BCF /* Assets.xcassets */; };
 		F7E5F15E21B48DDD00E50BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E5F15C21B48DDD00E50BCF /* LaunchScreen.storyboard */; };
+		F7E5F16621B4955700E50BCF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E5F16521B4955700E50BCF /* User.swift */; };
+		F7E5F16821B496CF00E50BCF /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E5F16721B496CF00E50BCF /* UserType.swift */; };
+		F7E5F16A21B4B71400E50BCF /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E5F16921B4B71400E50BCF /* RegisterController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		F7E5F15A21B48DDD00E50BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7E5F15D21B48DDD00E50BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7E5F15F21B48DDD00E50BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E5F16521B4955700E50BCF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F7E5F16721B496CF00E50BCF /* UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
+		F7E5F16921B4B71400E50BCF /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				F7E5F15021B48DDB00E50BCF /* AppDelegate.swift */,
 				F7E5F15221B48DDB00E50BCF /* ViewController.swift */,
 				F7E5F15421B48DDB00E50BCF /* Main.storyboard */,
+				F7E5F16921B4B71400E50BCF /* RegisterController.swift */,
+				F7E5F16521B4955700E50BCF /* User.swift */,
+				F7E5F16721B496CF00E50BCF /* UserType.swift */,
 				F7E5F15A21B48DDD00E50BCF /* Assets.xcassets */,
 				F7E5F15C21B48DDD00E50BCF /* LaunchScreen.storyboard */,
 				F7E5F15F21B48DDD00E50BCF /* Info.plist */,
@@ -138,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E5F16621B4955700E50BCF /* User.swift in Sources */,
+				F7E5F16821B496CF00E50BCF /* UserType.swift in Sources */,
+				F7E5F16A21B4B71400E50BCF /* RegisterController.swift in Sources */,
 				F7E5F15321B48DDB00E50BCF /* ViewController.swift in Sources */,
 				F7E5F15921B48DDB00E50BCF /* Donatrix.xcdatamodeld in Sources */,
 				F7E5F15121B48DDB00E50BCF /* AppDelegate.swift in Sources */,
